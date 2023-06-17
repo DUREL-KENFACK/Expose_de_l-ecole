@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: family_regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+  overflow: auto;
+}
+
+h1, h2, h4, h6 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.hello {
+    color: #002845;
+}
+
+.title {
+    color: rgb(55, 0, 255);
+}
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accueil-text {
+    font-size: 14px;
+}
+
+.services {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: auto;
+    margin-top: auto;
+    width: 100%;
+}
+
+.service {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.service img {
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #002845;
+}
+
+.service p {
+    font-size: 14px;
+    color: #002845;
+}
+
+.service a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #002845;
+    text-decoration: none;
+    border-bottom: 1px solid #002845;
+}
+
+.service a:hover {
+    border-bottom: none;
+}
+
+.enrg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.enregistrement-button {
+    background-color: #002845;
+    color: white;
+    width: 220px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.publiciter {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.publiciter-heading {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 40px;
+}
+.service {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.service {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.services-content {
+    width: 400px;
+}
+
+@media only screen and (max-width: 400px) {
+    .main {
+        max-width: 40vh;
+    }
+}
+.partners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.partner-name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #002845;
+}
+#peut-on-obtenir-une-ordonnance-apres-une-consultation-en-ligne-avec-un-medecin-generaliste {
+    background-color: #EAF2F8; /* Couleur d'arrière-plan bleu pâle */
+    padding: 20px;
+  }
+  
+  
+  .enrg-service {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .consulter-un-medecin-s {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .heure {
+    color: #004484;
+    font-weight: bold;
+  }
+  
+  .reponse {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .reponse-s {
+    margin-right: 10px;
+  }
+  
+  .reponses svg {
+    width: 15px;
+    height: 15px;
+    fill: #004484;
+  }
+  
+  .css-s0gk1p {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .consulter-un-medecin {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004484;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .css-wo02lo:hover {
+    background-color: #003366;
+  }
+  .sous-titre {
+    display: inline-block; 
+    width: 300px;
+    height: 200px;
+    color: #333;
+    font-size: small;
+  }
+  .main-menu{  
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0px 5px 23px rgba(21, 61, 87, 0.08);
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 2.4rem;
+    display: flex;
+  }
+  .logo {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    height:  150px;
+    aspect-ratio: auto 74 / 38;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    width: auto;
+    display: flex;
+    max-width: 100%;
+  }
+  .open-main-1 {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 6px;
+    padding: 0.2rem;
+    height: 3.8rem;
+  }
+  .details{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 75rem;
+  }
+  .offre {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    list-style: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    padding: 0 1.5rem;
+  }
+  .comment {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    list-style: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    padding: 0 1.5rem;
+  }
+  .notre-offre {
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: family_medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #002845;
+  }
+  .comment-ca-marche {
+    overflow-wrap: anywhere;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: family_medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #002845;
+  }
+.fiches-sante{
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: family_medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #002845;
+}
+.accueil {
+  
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: family_medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #002845;
+}
+.sante {
+  font-family: family_regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+  list-style: none;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  padding: 0 1.5rem;
+}
+.enrg-services {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0 2rem;
+  margin-right: 0;
+  width: 55rem;
+  max-width: calc(100% - 4rem);
+}
+.div-explication {
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: family_regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #002845;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.div-offres {
+  font-family: family_regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: 8rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.div-off {
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.1;
+  font-family: family_black,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 900;
+  text-align: left;
+  font-size: 7rem;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #002845;
+}
+.logo-offre {
+  font-family: family_regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+  aspect-ratio: auto 1200 / 800;
+  height: 800px;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  max-height: 60vh;
+}
+.open-main {
+  font-family: family_regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow-wrap: anywhere;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 9.6rem;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 96rem;
+}

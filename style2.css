@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.css-m0kydf {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    color: rgb(10, 22, 31);
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    overflow-y: auto;
+}
+.css-51rll3 {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    color: rgb(10, 22, 31);
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    position: relative;
+    font-size: 26px;
+}
+.css-115i5ac {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(10, 22, 31, 0.59);
+    margin-bottom: 24px;
+}
+.css-3rfiap {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-rendering: inherit;
+    appearance: none;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    padding: 6px 0px 8px;
+    height: 26px;
+    border-radius: 0px;
+    border-style: none none solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(206, 208, 210);
+}
+.css-y1gt6f {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    color: rgb(10, 22, 31);
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.css-acqagr {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    color: rgb(10, 22, 31);
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    user-select: none;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    flex-shrink: 0;
+}
+
+.css-m2acoj {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    color: rgb(10, 22, 31);
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.css-qmi5hb {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    color: rgb(10, 22, 31);
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    padding: 40px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 714px;
+    min-height: 714px;
+}
+.css-17wpckg {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: none;
+    text-rendering: inherit;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    transition-property: transform, color, background-color, opacity, box-shadow;
+    transition-duration: 0.14s;
+    transition-timing-function: ease;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: left;
+    border-radius: 7px;
+    height: 56px;
+    font-family: YouSans-Bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 126, 133);
+}

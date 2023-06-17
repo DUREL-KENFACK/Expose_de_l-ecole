@@ -1,0 +1,86 @@
+*{
+    background-color: azure;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color:#002845 ;
+    padding-left: 3px;
+}
+body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    font-size:32px;
+    
+}
+.enregistre{
+    box-shadow:3px 3px 3px 1px rgb(146, 144, 144);
+    background-color:#002845;
+    color:white;
+    width:220px;
+    border-radius:5px
+}
+.enregistre:hover{
+    background-color: orange;
+    color: black;
+}
+.main{
+    padding-left: 3px;
+    min-height:100vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.enrg_service{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.enrg_service>div{
+    flex: 50%;
+}
+.coordination{
+    border-radius: 10px;
+    background-color:#002845;
+    color: white;
+    width: 500px;
+    height: 300px;
+}
+.publiciter{
+    margin-top:15px;
+    text-align: left;
+    color: #002845;
+    margin-bottom: 1rem;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   justify-content: center;
+   margin-left: 40px;
+    
+}
+@media only screen and (max-width : 400px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+  a:hover{
+    color: orange;
+    height: 30px;
+  }
+  a{
+    box-shadow:3px 2px 2px 1px rgb(146, 144, 144);
+  }
